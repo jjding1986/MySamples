@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <bean name="Tom" class="com.dingjinjin.demo.bean.Cat">
+        <property name="name" value="Tom"/>
+        <property name="food" ref="Fish"/>
+        <property name="country" ref="England"/>
+    </bean>
+
+    <bean name="England" class="com.dingjinjin.demo.bean.Country">
+        <property name="name" value="England"/>
+    </bean>
+
+    <bean name="Fish" class="com.dingjinjin.demo.bean.Food">
+        <property name="name" value="Fish"/>
+    </bean>
+</beans>

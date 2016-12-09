@@ -1,0 +1,4 @@
+<h1>Index</h1>
+
+<h2>My cat is $cat.getName()</h2>
+<h2>My dog is $dog.getName()</h2>

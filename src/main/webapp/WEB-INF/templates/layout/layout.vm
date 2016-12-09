@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Cat</title>
+</head>
+<body>
+<div>
+    #parse("/WEB-INF/templates/fragments/_header.vm")
+</div>
+
+
+<div>
+    $screen_content
+</div>
+
+<div>
+    #parse("/WEB-INF/templates/fragments/_footer.vm")
+</div>
+</body>
+</html>
